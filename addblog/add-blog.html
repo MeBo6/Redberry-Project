@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="add-blog.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <img class="logo" src="../assets/LOGO.png" alt="Redberry Logo" />
+    </header>
+
+    <img class="left-arrow" src="../assets/Arrow.png" alt="left arrow" />
+
+    <main>
+      <div class="addblog-container">
+        <h1>ბლოგის დამატება</h1>
+          <label>ატვირთეთ ფოტო</label> <br>
+          <input type="file" />
+          <div class="author-title-container">
+            <div class="blog-author">
+              <label>ავტორი *</label> <br>
+              <input type="text" placeholder="შეიყვანეთ ავტორი" /> <br>
+              <ul>
+                <li>მინიმუმ 4 სიმბოლო</li>
+                <li>მინიმუმ 2 სიტყვა</li>
+                <li>მხოლოდ ქართული სიმბოლოები</li>
+              </ul>
+            </div>
+  
+            <div class="blog-title">
+              <label>სათაური *</label> <br>
+              <input type="text" placeholder="შეიყვანეთ სათაური" />
+              <p>მინიმუმ 2 სიმბოლო</p>
+            </div>
+          </div>
+
+        <div class="description-container">
+          <label>აღწერა *</label> <br>
+          <input type="text" placeholder="შეიყვანეთ აღწერა" />
+          <p>მინიმუმ 2 სიმბოლო</p>
+        </div>
+
+        <div class="publish-category-container">
+          <div class="publishdate-container">
+            <label>გამოქვეყნების თარიღი *</label> <br>
+            <input type="date">
+          </div>
+          <div class="category-container">
+            <label for="">კატეგორია *</label> <br>
+            <select name="" id="">
+              <option value="#">აირჩიეთ კატეგორია</option>
+              <option value="$">აირჩიეთ კატეგორია</option>
+              <option value="%">აირჩიეთ კატეგორია</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="email-container">
+          <label for="">ელ-ფოსტა</label> <br>
+          <input type="email" placeholder="Example@redberry.com">
+        </div>
+
+        <button>გამოქვეყნება</button>
+
+      </div>
+    </main>
+  </body>
+</html>
